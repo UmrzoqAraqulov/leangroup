@@ -1,0 +1,46 @@
+.komp {
+
+  h2 {
+    text-align: center;
+    padding: 50px 0px 30px;
+    font-size: 32px;
+    color: #2C2D2E;
+    span{
+      color: #EF7C00;
+    }
+  }
+
+  .info {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+
+    .right {
+      width: 45%;
+      font-size: 15px;
+      color: #494a4bde !important;
+    }
+    .left{
+      width: 50%;
+    }
+    @media(max-width:800px){
+      flex-direction: column;
+      .left{
+        width: 90%;
+      }
+      .right{
+        width: 100%;
+      }
+    }
+  }
+  @media(max-width:500px){
+    .info .left {
+        width: 100%;
+      }
+      h2{
+        font-size: 26px;
+      }
+  }
+  
+}

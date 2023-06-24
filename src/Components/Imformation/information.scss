@@ -1,0 +1,50 @@
+.information{
+  margin: 50px 0px;
+  .container{
+    padding: 20px;
+    /* depth2 */
+      box-shadow: 0px 4px 32px 0px rgba(0, 16, 61, 0.16);
+      h2{
+        font-size: 32px;
+        span{
+          color: #EF7C00;
+        }
+      }
+      p{
+        color: #2C2D2E;
+        font-size: 15px;
+        width: 50%;
+        padding: 15px 0px;
+      }
+      form{
+        width: 60%;
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        .name,.tell{
+          border: 1.5px solid #919399;
+          border-radius: 3px;
+          input{
+            border: none;
+            padding:10px 15px;
+            outline: none;
+            border-left: 1px solid #919399;
+          }i{
+            padding: 3px 10px;
+          }
+        }
+        
+      }
+      @media(max-width:520px){
+        h2{
+          font-size: 24px;
+        }
+        p{
+          width: 100%;
+        }
+       form{
+        width: 100%;
+       }
+      }
+  }
+}
